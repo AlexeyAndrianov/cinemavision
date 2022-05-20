@@ -7,10 +7,8 @@ export default class SearchInput extends Component {
       <div>
           <div>Search:</div>
           <input placeholder='type here'/>
-          { FilmList.map((val, key) => (
-              <div>
-                <p key="{film}">{val.name}</p>
-              </div>
+          { FilmList.map((val) => (
+            <p key={val.id}>{val.name}</p>
           )) }
       </div>
     )

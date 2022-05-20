@@ -3,7 +3,7 @@ import {useState} from "react";
 function Counter(){
   let [num, setNum]= useState(0);
   let incNum =()=>{
-    setNum(Number(num)+1);
+    setNum(num+1);
   };
   let decNum = () => {
     setNum(num - 1);
