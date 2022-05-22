@@ -5,10 +5,10 @@ import HomepageFooter from './body/HomepageFooter'
 
 export default function Homepage() {
   return (
-        <> 
-        <div>{HomepageHeader}</div>
-        <div>{HomepageBody}</div>
-        <div>{HomepageFooter}</div>
-        </>
-    )
+      <> 
+          <div>{HomepageHeader}</div>
+          <div>{HomepageBody}</div>
+          <div>{HomepageFooter}</div>
+      </>
+  )
 }
