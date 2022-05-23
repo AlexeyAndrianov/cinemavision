@@ -1,9 +1,9 @@
+import Homepage from "./components/homepage/Homepage";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          Learn React
-      </header>
+      <Homepage />
     </div>
   );
 }
