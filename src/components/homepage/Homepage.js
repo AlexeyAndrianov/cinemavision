@@ -5,7 +5,7 @@ import HomepageFooter from './footer/HomepageFooter'
 
 export default function Homepage() {
   return (
-    <> 
+    <>
       <div><HomepageHeader /></div>
       <div><HomepageBody /></div>
       <div><HomepageFooter /></div>
