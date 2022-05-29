@@ -1,14 +1,16 @@
 import styled from 'styled-components';
 
 export const HomepageHeaderContainer = styled.div`
-  width: 1200;
-  height: 396;
+  div {
+    width: 1200;
+    height: 396;
+  }
 
   img {
-    width: 100%;
-    height: 100%;
+    width: 1200px;
+    height: 396px;
+    object-fit: cover;
     opacity: 0.6;
-    filter: blur(8px);
     -webkit-filter: blur(3px);
   }
 `
