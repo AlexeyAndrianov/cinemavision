@@ -8,5 +8,7 @@ export const HomepageHeaderContainer = styled.div`
     width: 100%;
     height: 100%;
     opacity: 0.6;
+    filter: blur(8px);
+    -webkit-filter: blur(3px);
   }
 `
