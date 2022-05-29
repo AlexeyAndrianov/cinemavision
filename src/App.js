@@ -1,10 +1,11 @@
 import Homepage from "./components/homepage/Homepage";
+import {AppContainer} from "./components/styles/AppContainer.styled"
 
 function App() {
   return (
-    <div className="App">
+    <AppContainer>
       <Homepage />
-    </div>
+    </AppContainer>
   );
 }
 
