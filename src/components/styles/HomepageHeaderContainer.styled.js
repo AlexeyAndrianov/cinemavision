@@ -7,6 +7,7 @@ export const HomepageHeaderContainer = styled.div`
     align-items: center;
     justify-content: center;
     position: relative; 
+    margin-bottom: 10px;
   }
 
   img {
