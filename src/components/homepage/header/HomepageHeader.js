@@ -4,11 +4,9 @@ import SearchButton from './SearchButton'
 
 export default function HomepageHeader() {
   return (
-    <div>
-      <div>
-        <img src="https://static.alphacoders.com/thumbs_categories/20.jpg"></img>
-      </div>
-      <div className="search_group">
+    <div className="header-wrapper">
+      <div className="header-background" />
+      <div className="search-group">
         <SearchInput />
         <SearchButton />
       </div>
