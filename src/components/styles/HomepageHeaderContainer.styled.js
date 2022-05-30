@@ -15,6 +15,16 @@ export const HomepageHeaderContainer = styled.div`
     object-fit: cover;
   }
 
+  .header-wrapper .header-label {
+    position: absolute;
+    top: -80px;
+    left: 50px;
+    color: #F65261;
+    font-weight: 400;
+    font-size: 24px;
+    z-index: 1;
+  }
+
   .header-background {
     background-image: url(https://static.alphacoders.com/thumbs_categories/20.jpg);
     background-position: center;
