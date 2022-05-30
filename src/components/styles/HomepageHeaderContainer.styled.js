@@ -34,6 +34,14 @@ export const HomepageHeaderContainer = styled.div`
     z-index: 1;
   }
 
+  .search-group h1 {
+    margin: 0 auto;
+    padding: 10px;
+    color: #FFFFFF;
+    font-weight: 300;
+    margin-bottom: 33px;
+  }
+
   .search-group input {
     width: 713px;
     height: 57px;
@@ -43,6 +51,7 @@ export const HomepageHeaderContainer = styled.div`
     border-radius: 4px;
     text-indent: 19px;
     border: none;
+    color: #FFFFFF;
   }
 
   .search-group button {
