@@ -74,4 +74,19 @@ export const HomepageHeaderContainer = styled.div`
     color: white;
     border: none;
   }
+
+  .add-movie-button {
+    position: absolute;
+    left: 970px;
+    top: 30px;
+    width: 177px;
+    height: 46px;
+    margin-left: 14px;
+    border-radius: 4px;
+    font-weight: 600;
+    background: rgba(60, 60, 60, 0.6);
+    font-size: 24px;
+    color: #F65261;
+    border: none;
+  }
 `
