@@ -34,4 +34,25 @@ export const HomepageHeaderContainer = styled.div`
     z-index: 1;
   }
 
+  .search-group input {
+    width: 713px;
+    height: 57px;
+    background-color: #323232;
+    opacity: 0.8;
+    font-size: 24px;
+    border-radius: 4px;
+    text-indent: 19px;
+    border: none;
+  }
+
+  .search-group button {
+    width: 233px;
+    height: 57px;
+    margin-left: 14px;
+    border-radius: 4px;
+    background-color: #F65261;
+    font-size: 24px;
+    color: white;
+    border: none;
+  }
 `
