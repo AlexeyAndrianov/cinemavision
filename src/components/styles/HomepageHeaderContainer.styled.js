@@ -6,7 +6,7 @@ export const HomepageHeaderContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative; 
+    position: relative;
     margin-bottom: 10px;
   }
 
