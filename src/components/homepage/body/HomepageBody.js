@@ -6,7 +6,7 @@ export default function HomepageBody() {
   return (
     <>
       {Films.map((film) => (
-        <div key={film.id}className="movie-card">
+        <div key={film.id} className="movie-card">
           <MovieCard film_attrs={film}/>
         </div>
       ))}
