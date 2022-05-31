@@ -1,4 +1,4 @@
-export const Films = [
+export const Movies = [
   {
     "id": 1,
     "filmImageUrl": "https://image.ceneostatic.pl/data/products/10583277/i-the-lord-of-the-rings-the-two-towers-soundtrack-wladca-pierscieni-dwie-wieze-howard-shore-cd.jpg",

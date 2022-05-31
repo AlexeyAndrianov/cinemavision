@@ -27,6 +27,16 @@ export const HomepageBodyContainer = styled.div`
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .movies-found-counter {
+    width: 166px;
+    height: 24px;
+    margin-left: 55px;
+    margin: 15px 0 0 50px;
+    color: #FFFFFF;
+    font-size: 20px;
+    weight: 400;
+  }
+
   .film-name {
     text-align: left;
     size: 18px;
@@ -48,16 +58,14 @@ export const HomepageBodyContainer = styled.div`
   }
 
   .sorting-group {
-    width: 100%;
-    height: 40px;
-    margin-top: 20px;
-    margin-left: 57px;
+    margin: 20px 50px 0;
+    height: 20px;
+    border-bottom: 1px solid #424242;
   }
 
   .buttons-group {
     margin-right: 30px;
     float:left;
-    border-bottom: 1px solid #424242;
   }
 
   .buttons-group button {

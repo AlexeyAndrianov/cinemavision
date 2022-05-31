@@ -2,8 +2,7 @@ import React from 'react'
 import MovieCard from './MovieCard'
 import MoviesFoundCounter from './MoviesFoundCounter'
 import SortingGroup from './SortingGroup'
-import { Films } from '../../../fixtures.js'
-import MooviesFoundCounter from './MoviesFoundCounter'
+import { Movies } from '../../../fixtures.js'
 
 export default function HomepageBody() {
   return (
@@ -11,7 +10,7 @@ export default function HomepageBody() {
       <SortingGroup />
       <MoviesFoundCounter />
       <div className='movie-cards-wrapper'>
-        {Films.map((film) => (
+        {Movies.map((film) => (
           <div key={film.id} className="movie-card">
             <MovieCard filmAttrs={film}/>
           </div>
