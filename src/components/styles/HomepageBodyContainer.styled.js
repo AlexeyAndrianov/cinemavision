@@ -127,6 +127,7 @@ export const HomepageBodyContainer = styled.div`
   }
 
   .wrap-name-year {
+    margin-top: 15px;
     display: flex;
     justify-content: space-between;
   }
