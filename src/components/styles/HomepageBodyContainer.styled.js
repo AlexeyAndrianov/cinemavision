@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HomepageBodyContainer = styled.div`
   width: 1200px;
-  height: 1717px;
+  height: 853px;
   display: flex;
   position: relative; 
   background-color: #232323;
@@ -63,7 +63,30 @@ export const HomepageBodyContainer = styled.div`
     margin-right: 22px;
     font-size: 16px;
     float:left;
-    // border-bottom: 2px solid #F65261; (to do: move)
+  }
+
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #F65261;
+  }
+
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #F65261;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }
 
   .sort-select {
