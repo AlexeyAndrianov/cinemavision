@@ -10,11 +10,13 @@ export default function HomepageBody() {
     <>
       <SortingGroup />
       <MoviesFoundCounter />
-      {Films.map((film) => (
-        <div key={film.id} className="movie-card">
-          <MovieCard film_attrs={film}/>
-        </div>
-      ))}
+      <div className='movie-cards-wrapper'>
+        {Films.map((film) => (
+          <div key={film.id} className="movie-card">
+            <MovieCard film_attrs={film}/>
+          </div>
+        ))}
+      </div>
     </>
 
   )

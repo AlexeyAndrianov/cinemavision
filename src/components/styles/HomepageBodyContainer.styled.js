@@ -12,18 +12,20 @@ export const HomepageBodyContainer = styled.div`
   right: 0;
 
   .movie-card {
-    height: 486px;
-    width: 324px;
-    margin-left: 59px;
-    margin-top: 50px;
     display: inline-block;
     overflow: hidden;
   }
 
   .movie-card-info {
     height: 65px;
-    width: 324px;
     color: #FFFFFF;
+  }
+
+  .movie-cards-wrapper {
+    margin: 50px 50px 0;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .film-name {
@@ -105,5 +107,10 @@ export const HomepageBodyContainer = styled.div`
   .sort-select label{
     font-weight: 100;
     color: #FFFFFF;
+  }
+
+  .wrap-name-year {
+    display: flex;
+    justify-content: space-between;
   }
 `
