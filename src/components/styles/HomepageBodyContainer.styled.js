@@ -45,11 +45,21 @@ export const HomepageBodyContainer = styled.div`
   .film-genre {
     text-align: left;
     size: 17px;
+    weight: 500;
+    opacity: 0.5;
   }
 
   .film-release-year {
-    text-align: right;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+    height: 20px;
     size: 14px;
+    weight: 500;
+    opacity: 0.5;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 14px;
   }
 
   .movie-card-image {
