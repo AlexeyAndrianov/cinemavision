@@ -45,13 +45,15 @@ export const HomepageBodyContainer = styled.div`
 
   .sorting-group {
     width: 100%;
-    height: 60px;
+    height: 40px;
+    margin-top: 20px;
     margin-left: 57px;
   }
 
   .buttons-group {
     margin-right: 30px;
     float:left;
+    border-bottom: 1px solid #424242;
   }
 
   .buttons-group button {
@@ -61,6 +63,7 @@ export const HomepageBodyContainer = styled.div`
     margin-right: 22px;
     font-size: 16px;
     float:left;
+    // border-bottom: 2px solid #F65261; (to do: move)
   }
 
   .sort-select {
