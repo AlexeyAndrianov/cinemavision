@@ -1,12 +1,10 @@
 import styled from 'styled-components';
 
 export const HomepageBodyContainer = styled.div`
-  width: 1200px;
   display: flex;
-  position: relative; 
+  position: relative;
   background-color: #232323;
   display: inline-block;
-  position: absolute;
   left: 0;
   right: 0;
 
@@ -112,7 +110,6 @@ export const HomepageBodyContainer = styled.div`
   }
 
   .sort-select {
-    margin-right: 120px;
     float: right;
   }
 
