@@ -30,14 +30,17 @@ export const HomepageBodyContainer = styled.div`
 
   .film-name {
     text-align: left;
+    size: 18px;
   }
 
   .film-genre {
     text-align: left;
+    size: 17px;
   }
 
   .film-release-year {
     text-align: right;
+    size: 14px;
   }
 
   .movie-card-image {
