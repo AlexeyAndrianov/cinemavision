@@ -42,4 +42,9 @@ export const HomepageBodyContainer = styled.div`
     height: 450px;
     width: 324px;
   }
+
+  .sorting-group {
+    width: 100%;
+    height: 60px;
+  }
 `
