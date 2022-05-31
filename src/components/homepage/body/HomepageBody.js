@@ -1,6 +1,6 @@
 import React from 'react'
-import FilmCard from './FilmCard'
-import FilmCardInfo from './FilmCardInfo'
+import FilmCard from './MovieCard'
+import FilmCardInfo from './MovieCardInfo'
 import { Films } from '../../../fixtures.js'
 import { HomepageBodyContainer } from '../../styles/HomepageBody.styled'
 

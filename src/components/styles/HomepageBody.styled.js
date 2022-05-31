@@ -15,4 +15,9 @@ export const HomepageBodyContainer = styled.div`
     margin-left: 59px;
     overflow:hidden;
   }
+
+  .movie-card-info {
+    height: 30px;
+    width: 324px;
+  }
 `
