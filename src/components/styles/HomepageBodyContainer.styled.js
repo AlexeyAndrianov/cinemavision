@@ -15,13 +15,27 @@ export const HomepageBodyContainer = styled.div`
     height: 486px;
     width: 324px;
     margin-left: 59px;
+    margin-top: 50px;
     display: inline-block;
     overflow: hidden;
   }
 
   .movie-card-info {
-    height: 30px;
+    height: 65px;
     width: 324px;
+    color: #FFFFFF;
+  }
+
+  .film-name {
+    text-align: left;
+  }
+
+  .film-genre {
+    text-align: left;
+  }
+
+  .film-release-year {
+    text-align: right;
   }
 
   .movie-card-image {
