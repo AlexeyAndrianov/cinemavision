@@ -32,6 +32,27 @@ export const Films = [
     "filmImageUrl": "https://image.ceneostatic.pl/data/products/10583277/i-the-lord-of-the-rings-the-two-towers-soundtrack-wladca-pierscieni-dwie-wieze-howard-shore-cd.jpg",
     "filmName": "LOTR22",
     "filmGenre": "Fantasy",
+    "filmReleaseYear": 2001,
+  },
+  {
+    "id": 6,
+    "filmImageUrl": "https://image.ceneostatic.pl/data/products/10583277/i-the-lord-of-the-rings-the-two-towers-soundtrack-wladca-pierscieni-dwie-wieze-howard-shore-cd.jpg",
+    "filmName": "LOTR21",
+    "filmGenre": "Fantasy",
     "filmReleaseYear": 2001
-  }
+  },
+  {
+    "id": 7,
+    "filmImageUrl": "https://image.ceneostatic.pl/data/products/10583277/i-the-lord-of-the-rings-the-two-towers-soundtrack-wladca-pierscieni-dwie-wieze-howard-shore-cd.jpg",
+    "filmName": "LOTR21",
+    "filmGenre": "Fantasy",
+    "filmReleaseYear": 2001
+  },
+  {
+    "id": 8,
+    "filmImageUrl": "https://image.ceneostatic.pl/data/products/10583277/i-the-lord-of-the-rings-the-two-towers-soundtrack-wladca-pierscieni-dwie-wieze-howard-shore-cd.jpg",
+    "filmName": "LOTR21",
+    "filmGenre": "Fantasy",
+    "filmReleaseYear": 2001
+  },
 ]

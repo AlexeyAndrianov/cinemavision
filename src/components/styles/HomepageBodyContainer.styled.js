@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const HomepageBodyContainer = styled.div`
   width: 1200px;
-  height: 853px;
   display: flex;
   position: relative; 
   background-color: #232323;
