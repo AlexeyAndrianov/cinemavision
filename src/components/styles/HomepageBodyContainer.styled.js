@@ -46,5 +46,38 @@ export const HomepageBodyContainer = styled.div`
   .sorting-group {
     width: 100%;
     height: 60px;
+    margin-left: 57px;
+  }
+
+  .buttons-group {
+    margin-right: 30px;
+    float:left;
+  }
+
+  .buttons-group button {
+    border: none;
+    background-color: #232323;
+    color: #FFFFFF;
+    margin-right: 22px;
+    font-size: 16px;
+    float:left;
+  }
+
+  .sort-select {
+    margin-right: 120px;
+    float: right;
+  }
+
+  .sort-select select{
+    background-color: #232323;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 20px;
+  }
+
+  .sort-select label{
+    font-weight: 100;
+    color: #FFFFFF;
   }
 `
