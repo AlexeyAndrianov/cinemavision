@@ -13,11 +13,10 @@ export default function HomepageBody() {
       <div className='movie-cards-wrapper'>
         {Films.map((film) => (
           <div key={film.id} className="movie-card">
-            <MovieCard film_attrs={film}/>
+            <MovieCard filmAttrs={film}/>
           </div>
         ))}
       </div>
     </>
-
   )
 }

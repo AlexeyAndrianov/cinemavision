@@ -5,15 +5,15 @@ import MovieCardInfo from './MovieCardInfo'
 export default function MovieCard(props) {
   return (
     <div>
-      <img src={props.film_attrs.film_image_url} alt={props.film_attrs.film_name}></img>
-      <MovieCardInfo info_attrs={props.film_attrs}/>
+      <img src={props.filmAttrs.filmImageUrl} alt={props.filmAttrs.filmName}></img>
+      <MovieCardInfo infoAttrs={props.filmAttrs}/>
     </div>
   )
 }
 
 MovieCard.propTypes = {
-  film_image_url: PropTypes.string,
-  film_name: PropTypes.string,
-  film_genre: PropTypes.string,
-  film_release_year: PropTypes.number
+  filmImageUrl: PropTypes.string,
+  filmName: PropTypes.string,
+  filmGenre: PropTypes.string,
+  filmReleaseYear: PropTypes.number
 };
