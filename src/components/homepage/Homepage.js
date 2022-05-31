@@ -3,6 +3,7 @@ import HomepageHeader from './header/HomepageHeader'
 import HomepageBody from './body/HomepageBody'
 import HomepageFooter from './footer/HomepageFooter'
 import {HomepageHeaderContainer} from "../styles/HomepageHeaderContainer.styled"
+import { HomepageBodyContainer } from '../styles/HomepageBodyContainer.styled'
 
 export default function Homepage() {
   return (
@@ -10,7 +11,9 @@ export default function Homepage() {
       <HomepageHeaderContainer>
         <HomepageHeader />
       </HomepageHeaderContainer>
-      <div><HomepageBody /></div>
+      <HomepageBodyContainer>
+        <HomepageBody />
+      </HomepageBodyContainer>
       <div><HomepageFooter /></div>
     </>
   )
