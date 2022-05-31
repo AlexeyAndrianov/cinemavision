@@ -1,5 +1,5 @@
 import React from 'react'
-import FilmCard from './MovieCard'
+import MovieCard from './MovieCard'
 import { Films } from '../../../fixtures.js'
 
 export default function HomepageBody() {
@@ -7,7 +7,7 @@ export default function HomepageBody() {
     <>
       {Films.map((film) => (
         <div key={film.id}className="movie-card">
-          <FilmCard film_attrs={film}/>
+          <MovieCard film_attrs={film}/>
         </div>
       ))}
     </>

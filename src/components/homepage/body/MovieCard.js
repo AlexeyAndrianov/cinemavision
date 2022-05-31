@@ -1,11 +1,11 @@
 import React from 'react'
-import FilmCardInfo from './MovieCardInfo'
+import MovieCardInfo from './MovieCardInfo'
 
-export default function FilmCard(props) {
+export default function MovieCard(props) {
   return (
-    <div>
+    <div className='movie-card'>
       <img src={props.film_attrs.film_image_url}></img>
-      <FilmCardInfo info_attrs={props.film_attrs}/>
+      <MovieCardInfo info_attrs={props.film_attrs}/>
     </div>
   )
 }
