@@ -19,12 +19,6 @@ export const HomepageHeaderContainer = styled.div`
     bottom: 0;
   }
 
-  img {
-    width: 1200px;
-    height: 396px;
-    object-fit: cover;
-  }
-
   .header-wrapper .header-label {
     position: absolute;
     top: -80px;
