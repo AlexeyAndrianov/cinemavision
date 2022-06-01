@@ -16,6 +16,7 @@ export default function HomepageHeader() {
         <SearchInput />
         <SearchButton />
       </div>
+      <div className='header-body-divider' />
     </div>
   )
 }

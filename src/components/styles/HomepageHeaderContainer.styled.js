@@ -10,6 +10,15 @@ export const HomepageHeaderContainer = styled.div`
     margin-bottom: 10px;
   }
 
+  .header-body-divider {
+    width: 100%;
+    height: 10px;
+    background-color: #888888;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+  }
+
   img {
     width: 1200px;
     height: 396px;
