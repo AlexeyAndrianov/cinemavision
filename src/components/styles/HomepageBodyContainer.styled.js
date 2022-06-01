@@ -63,6 +63,7 @@ export const HomepageBodyContainer = styled.div`
   .movie-card-image {
     height: 450px;
     width: 324px;
+    object-fit: fill;
   }
 
   .sorting-group {

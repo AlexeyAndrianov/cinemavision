@@ -5,7 +5,7 @@ import MovieCardInfo from './MovieCardInfo'
 export default function MovieCard(props) {
   return (
     <div>
-      <img src={props.filmAttrs.filmImageUrl} alt={props.filmAttrs.filmName}></img>
+      <img className='movie-card-image' src={props.filmAttrs.filmImageUrl} alt={props.filmAttrs.filmName}></img>
       <MovieCardInfo infoAttrs={props.filmAttrs}/>
     </div>
   )
