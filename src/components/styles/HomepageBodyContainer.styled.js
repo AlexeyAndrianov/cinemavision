@@ -19,10 +19,10 @@ export const HomepageBodyContainer = styled.div`
   }
 
   .movie-cards-wrapper {
-    margin: 50px 50px 0;
+    margin: 0 50px 0;
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .movies-found-counter {
