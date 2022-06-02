@@ -1,10 +1,11 @@
+import Homepage from "./components/homepage/Homepage";
+import {AppContainer} from "./components/styles/AppContainer.styled"
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          Learn React
-      </header>
-    </div>
+    <AppContainer>
+      <Homepage />
+    </AppContainer>
   );
 }
 
