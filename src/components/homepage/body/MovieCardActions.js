@@ -6,7 +6,8 @@ export default function MovieCardActions() {
   if (isMenuHidden) {
     return (
       <select className='menu-circle-with-dots'>
-        
+        <option>Edit</option>
+        <option>Delete</option>
       </select>
     )
   } else {
