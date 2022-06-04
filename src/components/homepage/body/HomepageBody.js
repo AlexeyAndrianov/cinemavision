@@ -6,7 +6,7 @@ import { Movies } from '../../../fixtures.js'
 
 export default function HomepageBody() {
   return (
-    <>
+    <div className='body-content'>
       <SortingGroup />
       <MoviesFoundCounter />
       <div className='movie-cards-wrapper'>
@@ -16,6 +16,6 @@ export default function HomepageBody() {
           </div>
         ))}
       </div>
-    </>
+    </div>
   )
 }

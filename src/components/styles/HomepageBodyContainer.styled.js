@@ -8,6 +8,10 @@ export const HomepageBodyContainer = styled.div`
   left: 0;
   right: 0;
 
+  .body-content {
+    margin-left: 32px;
+  }
+
   .movie-card {
     display: inline-block;
     overflow: hidden;
@@ -18,11 +22,19 @@ export const HomepageBodyContainer = styled.div`
     color: #FFFFFF;
   }
 
+  .movie-card-img-with-actions {
+    position: relative;
+  }
+
+  .movie-card-img-with-actions:hover .menu-circle-with-dots {
+    display: block;
+  }
+
   .movie-cards-wrapper {
     margin: 0 50px 0;
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .movies-found-counter {
@@ -131,5 +143,18 @@ export const HomepageBodyContainer = styled.div`
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
+  }
+
+  .menu-circle-with-dots {
+    position: relative;
+    top: -470px;
+    left: 270px;
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 36px;
+    height: 36px;
+    background: # ;
+    border-radius: 50%;
+    display: none;
   }
 `
