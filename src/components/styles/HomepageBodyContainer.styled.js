@@ -28,6 +28,8 @@ export const HomepageBodyContainer = styled.div`
 
   .movie-card-img-with-actions:hover .menu-circle-with-dots {
     display: block;
+    left: 260px;
+    top: -10px;
   }
 
   .movie-cards-wrapper {
@@ -146,9 +148,7 @@ export const HomepageBodyContainer = styled.div`
   }
 
   .menu-circle-with-dots {
-    position: relative;
-    top: -470px;
-    left: 270px;
+    position: absolute;
     margin-top: 30px;
     margin-right: 30px;
     width: 36px;
