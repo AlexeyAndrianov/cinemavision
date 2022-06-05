@@ -62,6 +62,8 @@ export const HomepageBodyContainer = styled.div`
   }
 
   .film-release-year {
+    position: relative;
+    right: 12px;
     text-align: center;
     vertical-align: middle;
     width: 50px;
@@ -148,13 +150,22 @@ export const HomepageBodyContainer = styled.div`
   }
 
   .menu-circle-with-dots {
+    background-color: red;
     position: absolute;
     margin-top: 30px;
     margin-right: 30px;
     width: 36px;
     height: 36px;
-    background: # ;
     border-radius: 50%;
     display: none;
+  }
+
+  .open-options-menu {
+    width: 190px;
+    height: 110px;
+    position: absolute;
+    background-color: yellow;
+    margin-top: -430px;
+    margin-left: 110px;
   }
 `

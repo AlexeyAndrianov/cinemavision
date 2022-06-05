@@ -1,17 +1,19 @@
 import React from 'react'
 
 export default function MovieCardActions() {
-  let isMenuHidden = true;
+  let isMenuHidden = false;
 
   if (isMenuHidden) {
     return (
-      <select className='menu-circle-with-dots'>
-        <option>Edit</option>
-        <option>Delete</option>
-      </select>
+      <div className='menu-circle-with-dots' />
     )
   } else {
-    return(<p> qwe </p>)
+    return(
+      <div className='open-options-menu'>
+        EDIT
+        DELETE
+      </div>
+    )
   }
 }
 

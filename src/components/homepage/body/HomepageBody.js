@@ -2,6 +2,7 @@ import React from 'react'
 import MovieCard from './MovieCard'
 import MoviesFoundCounter from './MoviesFoundCounter'
 import SortingGroup from './SortingGroup'
+import AddMovieForm from './AddMovieForm'
 import { Movies } from '../../../fixtures.js'
 
 export default function HomepageBody() {
@@ -16,6 +17,7 @@ export default function HomepageBody() {
           </div>
         ))}
       </div>
+      <AddMovieForm />
     </div>
   )
 }
