@@ -150,7 +150,8 @@ export const HomepageBodyContainer = styled.div`
   }
 
   .menu-circle-with-dots {
-    background-color: red;
+    background-image: url(https://cdn.iconscout.com/icon/free/png-256/dots-three-circle-vertical-3610103-3014716.png);
+    background-size: 36px;
     position: absolute;
     margin-top: 30px;
     margin-right: 30px;
@@ -164,7 +165,8 @@ export const HomepageBodyContainer = styled.div`
     width: 190px;
     height: 110px;
     position: absolute;
-    background-color: yellow;
+    background-color: #232323;
+    color: #FFFFFF;
     margin-top: -430px;
     margin-left: 110px;
   }
@@ -173,5 +175,11 @@ export const HomepageBodyContainer = styled.div`
     margin-left: 175px;
     height: 20px;
     width: 20px;
+  }
+
+  .edit-delete-links {
+    display: flex;
+    position: relative;
+    display: block;
   }
 `
