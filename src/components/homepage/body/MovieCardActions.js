@@ -18,8 +18,8 @@ export default function MovieCardActions() {
           X
         </div>
         <div className='edit-delete-links'>
-          <div>Edit</div>
-          <div>Delete</div>
+          <div className='opened-menu-link'>Edit</div>
+          <div className='opened-menu-link'>Delete</div>
         </div>
       </div>
     )

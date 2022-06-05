@@ -163,7 +163,7 @@ export const HomepageBodyContainer = styled.div`
 
   .open-options-menu {
     width: 190px;
-    height: 110px;
+    height: 80px;
     position: absolute;
     background-color: #232323;
     color: #FFFFFF;
@@ -181,5 +181,14 @@ export const HomepageBodyContainer = styled.div`
     display: flex;
     position: relative;
     display: block;
+    text-align: center;
   }
+
+  .opened-menu-link {
+    margin-top: 5px;
+    :hover {
+      background-color: #F65261;
+    }
+  }
+
 `
