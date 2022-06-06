@@ -21,7 +21,7 @@ export default function AddMovieForm() {
       </div>
       <div className='movie-form-left-input-group '>
         <div>GENRE</div>
-        <select className='movie-form-input movie-form-left-input-group-input'>
+        <select className='movie-form-input movie-form-left-input-group-select'>
           <option>Detective</option>
           <option>Drama</option>
         </select>

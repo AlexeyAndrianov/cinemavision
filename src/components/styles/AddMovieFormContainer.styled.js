@@ -60,6 +60,13 @@ export const AddMovieFormContainer = styled.div`
     height: 57px;
   }
 
+  .movie-form-left-input-group-select {
+    display: inline-block;
+    width: 525px;
+    height: 57px;
+    font-size: 16px;
+  }
+
   .movie-form-right-input-group-input {
     display: inline-block;
     width: 301px;
