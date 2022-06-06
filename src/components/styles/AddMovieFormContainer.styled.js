@@ -24,7 +24,8 @@ export const AddMovieFormContainer = styled.div`
     font-size: 20px;
     color: #F65261;
     background-color: #323232;
-    margin-left: 150px;
+    margin-left: 485px;
+    margin-top: 25px;
   }
 
   .movie-form-submit-button {
@@ -35,6 +36,45 @@ export const AddMovieFormContainer = styled.div`
     font-size: 20px;
     color: #FFFFFF;
     background-color: #F65261;
-    margin-left: 150px;
+    margin-left: 20px;
+  }
+
+  .movie-form-left-input-group {
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    width: 525px;
+  }
+
+  .movie-form-right-input-group {
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    width: 301px;
+    margin-left: 30px;
+  }
+
+  .movie-form-left-input-group-input {
+    display: inline-block;
+    width: 525px;
+    height: 57px;
+  }
+
+  .movie-form-right-input-group-input {
+    display: inline-block;
+    width: 301px;
+    height: 57px;
+  }
+
+  .overview-textarea-group {
+    margin-top: 10px;
+    width: 100%;
+    height: 220px;
+  }
+
+  .overview-textarea {
+    width: 856px;
+    height: 200px;
+    background-color: #323232;
   }
 `
