@@ -83,5 +83,7 @@ export const AddMovieFormContainer = styled.div`
     width: 856px;
     height: 200px;
     background-color: #323232;
+    color: #FFFFFF;
+    font-size: 15px;
   }
 `

@@ -1,7 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useRef  } from 'react';
+import useOutsideClick from "../../../hooks/useOutsideClick";
+
 
 export default function MovieCardActions() {
   let [isMenuHidden, toggleMenu] = useState(true);
+  const ref = useRef();
+
+  useOutsideClick(ref, () => {
+    toggleMenu(isMenuHidden =>{return(!isMenuHidden)})
+  });
 
   if (isMenuHidden) {
     return (
@@ -11,7 +18,7 @@ export default function MovieCardActions() {
     )
   } else {
     return(
-      <div className='open-options-menu'>
+      <div ref={ref} className='open-options-menu'>
         <div className='cross' onClick={
           () =>toggleMenu(isMenuHidden =>{return(!isMenuHidden)})
         }>
