@@ -4,6 +4,7 @@ import MoviesFoundCounter from './MoviesFoundCounter'
 import SortingGroup from './SortingGroup'
 import AddMovieForm from './AddMovieForm'
 import { Movies } from '../../../fixtures.js'
+import { AddMovieFormContainer } from '../../styles/AddMovieFormContainer.styled'
 
 export default function HomepageBody() {
   return (
@@ -17,7 +18,9 @@ export default function HomepageBody() {
           </div>
         ))}
       </div>
-      <AddMovieForm />
+      <AddMovieFormContainer>
+        <AddMovieForm />
+      </AddMovieFormContainer>
     </div>
   )
 }
