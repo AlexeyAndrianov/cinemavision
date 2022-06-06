@@ -5,19 +5,19 @@ export default function AddMovieForm() {
     <form>
       <label>
         TITLE:
-        <input type="text" name="name" />
+        <input className='movie-form-input' type="text" name="name" />
       </label>
       <label>
         RELEASE DATE
-        <input type="text" name="release_date" />
+        <input className='movie-form-input' type="text" name="release_date" />
       </label>
       <label>
         MOVIE URL:
-        <input type="text" name="movie_url" />
+        <input className='movie-form-input' type="text" name="movie_url" />
       </label>
       <label>
         RATING:
-        <input type="text" name="rating" />
+        <input className='movie-form-input' type="text" name="rating" />
       </label>
       <label>
         GENRE
@@ -28,13 +28,14 @@ export default function AddMovieForm() {
       </label>
       <label>
         RUNTIME:
-        <input type="text" name="runtime" />
+        <input className='movie-form-input' type="text" name="runtime" />
       </label>
       <label>
         OVERVIEW:
-        <input type="text" name="overview" />
+        <input className='movie-form-input' type="text" name="overview" />
       </label>
-      <input type="submit" value="Submit" />
+      <input className='movie-form-reset-button' type="submit" value="Reset" />
+      <input className='movie-form-submit-button' type="submit" value="Submit" />
     </form>
   )
 }
