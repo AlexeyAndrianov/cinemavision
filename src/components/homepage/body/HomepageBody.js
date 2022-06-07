@@ -2,11 +2,13 @@ import React from 'react'
 import MovieCard from './MovieCard'
 import MoviesFoundCounter from './MoviesFoundCounter'
 import SortingGroup from './SortingGroup'
+import AddMovieForm from './AddMovieForm'
 import { Movies } from '../../../fixtures.js'
+import { AddMovieFormContainer } from '../../styles/AddMovieFormContainer.styled'
 
 export default function HomepageBody() {
   return (
-    <>
+    <div className='body-content'>
       <SortingGroup />
       <MoviesFoundCounter />
       <div className='movie-cards-wrapper'>
@@ -16,6 +18,9 @@ export default function HomepageBody() {
           </div>
         ))}
       </div>
-    </>
+      <AddMovieFormContainer>
+        <AddMovieForm />
+      </AddMovieFormContainer>
+    </div>
   )
 }
