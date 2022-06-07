@@ -41,7 +41,7 @@ export const HomepageBodyContainer = styled.div`
 
   .movies-found-counter {
     width: 166px;
-    height: 24px;
+    height: 47px;
     margin-left: 55px;
     margin: 15px 0 0 50px;
     color: #FFFFFF;
@@ -136,11 +136,16 @@ export const HomepageBodyContainer = styled.div`
     color: #FFFFFF;
     border: none;
     margin-left: 20px;
+    text-align-last: right;
   }
 
   .sort-select label{
     font-weight: 100;
     color: #FFFFFF;
+  }
+
+  .sort-options {
+    direction: rtl;
   }
 
   .wrap-name-year {
