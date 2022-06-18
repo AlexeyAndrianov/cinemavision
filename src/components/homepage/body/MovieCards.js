@@ -1,11 +1,10 @@
 import React from 'react'
 import MovieCard from './MovieCard'
-import { Movies } from '../../../fixtures.js'
 
-export default function MovieCards() {
+export default function MovieCards(props) {
   return (
     <div className='movie-cards-wrapper'>
-      {Movies.map((film) => (
+      {props.movieCardsCollection.map((film) => (
         <div key={film.id} className="movie-card">
           <MovieCard filmAttrs={film}/>
         </div>
