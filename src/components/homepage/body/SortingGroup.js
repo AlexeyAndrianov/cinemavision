@@ -13,6 +13,7 @@ export default function SortingGroup() {
       <div className='sort-select'>
         <label>SORT BY</label>
         <select name="sort-options">
+          <option value="" disabled selected hidden>... select sort type</option>
           <option value="Asc">RELEASE DATE</option>
           <option value="Asc">RATING</option>
         </select>
