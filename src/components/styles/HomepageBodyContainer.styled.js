@@ -8,6 +8,10 @@ export const HomepageBodyContainer = styled.div`
   left: 0;
   right: 0;
 
+  .body-content {
+    margin-left: 32px;
+  }
+
   .movie-card {
     display: inline-block;
     overflow: hidden;
@@ -18,8 +22,18 @@ export const HomepageBodyContainer = styled.div`
     color: #FFFFFF;
   }
 
+  .movie-card-img-with-actions {
+    position: relative;
+  }
+
+  .movie-card-img-with-actions:hover .menu-circle-with-dots {
+    display: block;
+    left: 270px;
+    top: -15px;
+  }
+
   .movie-cards-wrapper {
-    margin: 50px 50px 0;
+    margin: 0 50px 0;
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
@@ -27,7 +41,7 @@ export const HomepageBodyContainer = styled.div`
 
   .movies-found-counter {
     width: 166px;
-    height: 24px;
+    height: 47px;
     margin-left: 55px;
     margin: 15px 0 0 50px;
     color: #FFFFFF;
@@ -48,6 +62,8 @@ export const HomepageBodyContainer = styled.div`
   }
 
   .film-release-year {
+    position: relative;
+    right: 12px;
     text-align: center;
     vertical-align: middle;
     width: 50px;
@@ -120,6 +136,7 @@ export const HomepageBodyContainer = styled.div`
     color: #FFFFFF;
     border: none;
     margin-left: 20px;
+    text-align-last: right;
   }
 
   .sort-select label{
@@ -127,9 +144,56 @@ export const HomepageBodyContainer = styled.div`
     color: #FFFFFF;
   }
 
+  .sort-options {
+    direction: rtl;
+  }
+
   .wrap-name-year {
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
   }
+
+  .menu-circle-with-dots {
+    background-image: url(https://cdn.iconscout.com/icon/free/png-256/dots-three-circle-vertical-3610103-3014716.png);
+    background-size: 36px;
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: none;
+  }
+
+  .open-options-menu {
+    width: 190px;
+    height: 80px;
+    position: absolute;
+    background-color: #232323;
+    color: #FFFFFF;
+    margin-top: -430px;
+    margin-left: 110px;
+  }
+
+  .cross {
+    margin-left: 175px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .edit-delete-links {
+    display: flex;
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+
+  .opened-menu-link {
+    margin-top: 5px;
+    :hover {
+      background-color: #F65261;
+    }
+  }
+
 `
